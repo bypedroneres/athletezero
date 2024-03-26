@@ -26,6 +26,7 @@
 
 .hero_Content > h1:hover {
     text-decoration: underline;
+    text-decoration-color: #C4F969; 
 }
 
 

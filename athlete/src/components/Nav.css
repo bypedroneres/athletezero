@@ -8,6 +8,7 @@
     color: #FEFEFE;
     position: fixed;
     width: 100%;
+    z-index: 1000;
     transition: background-color 0.3s ease;
 }
 
@@ -35,11 +36,13 @@
 .nav_Items {
     display: flex;
     gap: 1rem;
-
 }
 
 .nav_Items > p {
     cursor: pointer;
     font-family: 'Spring', sans-serif;
     font-size: 0.8rem;
+}
+.nav_Items > p:hover {
+    text-decoration: underline;
 }
