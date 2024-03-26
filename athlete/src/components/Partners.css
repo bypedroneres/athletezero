@@ -1,0 +1,17 @@
+.partners_Content {
+    background-color: #202020;
+    color: #FEFEFE;
+    padding: 2rem;
+    justify-content: space-around;
+    display: flex;
+}
+
+.partners_Content > img {
+    height: 2rem;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.partners_Content > img:hover {
+    filter: grayscale(0);
+}

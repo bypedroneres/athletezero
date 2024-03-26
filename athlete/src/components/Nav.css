@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Spring';
+    src: url('/public/fonts/regular.otf') format('opentype');
+}
+
+.nav {
+    background-color: #12121200;
+    color: #FEFEFE;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.scrolled {
+    background-color: #121212;
+  }
+
+.nav_Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.nav_Logo {
+    display: flex;
+    width: 11rem;
+    margin-top: 0.5rem;
+    height: 1.2rem;
+}
+
+.nav_Items {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.nav_Items > p {
+    cursor: pointer;
+    font-family: 'Spring', sans-serif;
+    font-size: 0.8rem;
+}
