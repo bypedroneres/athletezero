@@ -46,3 +46,10 @@
 .nav_Items > p:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .nav_Items {
+        display: none;
+    }
+
+}

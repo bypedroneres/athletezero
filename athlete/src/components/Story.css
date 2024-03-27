@@ -1,0 +1,30 @@
+.story {
+    background-color: #121212;
+    padding: 2rem;
+    color: #FEFEFE;
+}
+
+.story > h2 {
+    font-family: 'Spring';
+}
+
+.story_Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.story_Text > p {
+    display: flex;
+    text-align: left;
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .story_Content {
+        display: flex;
+        flex-direction: column;
+    }
+}

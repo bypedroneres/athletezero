@@ -1,0 +1,63 @@
+.founder {
+    background-color: #121212;
+    color: #FEFEFE;
+    padding: 2rem;
+}
+
+.founder_Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.founder_Content > h2 {
+    font-family: 'Spring';
+}
+
+.founder_Card {
+    background-image: url('/public/images/founder/founder.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    height: 320px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+}
+
+.founder_Text {
+    display: flex;
+    flex-direction: column;
+    bottom: 2rem;
+    margin-top: 13rem;
+    text-align: left;
+}
+
+.founder_Text > h2{
+    margin: 0;
+}
+
+.founder_Text > p {
+    font-size: 0.8rem;
+    width: 350px;
+}
+
+.founder_Buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.founder_Button-1 > button {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #C4F969;
+}
+
+.founder_Button-2 > button {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: #FEFEFE;
+    background-color: #121212;
+}

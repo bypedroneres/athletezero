@@ -1,0 +1,33 @@
+.faq_Content {
+    background-color: #121212;
+    color: #FEFEFE;
+    padding: 2rem;
+}
+
+.faq_Questions {
+    margin-top: 3rem;
+}
+
+.faq_Question {
+    padding-bottom: 1rem; /* Add some space below each question */
+}
+
+.faq_QuestionHeader {
+    display: flex;
+    border-bottom: 1px solid #FEFEFE;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faq_QuestionHeader > h2 {
+    font-family: 'Spring';
+}
+
+.faq_Answer {
+    background-color: #FEFEFE;
+    color: #202020;
+    padding: 1rem;
+    text-align: left;
+}
