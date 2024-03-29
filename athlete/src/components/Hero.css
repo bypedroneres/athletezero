@@ -6,41 +6,37 @@
     display: flex;
     flex-direction: column;
     color: #FEFEFE;
-    height: 100vh;
     padding: 2rem;
+    height: 95vh;
 }
 
-.hero_Content > h1 {
+.hero_Text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero_Text > h1 {
     font-size: 3rem;
-    position: absolute;
-    bottom: 3rem; 
-    left: 50%; 
-    width: 100%;
-    transform: translateX(-50%);
     font-family: 'Spring', sans-serif;
     text-align: center;
-    text-decoration: none; 
-    color: inherit; 
+    color: inherit;
     cursor: pointer;
 }
 
-.hero_Content > h1:hover {
+.hero_Text > h1:hover {
     text-decoration: underline;
     text-decoration-color: #C4F969; 
 }
 
 
-.hero_Content > p {
-    position: absolute;
-    bottom: 0.5rem;
+.hero_Text > p {
     font-size: 0.8rem;
-    left: 50%; 
-    width: 80%;
-    transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
-    .hero_Content > h1 {
+    .hero_Text > h1 {
         font-size: 2.5rem;
         margin-bottom: 3rem;
     }
