@@ -9,6 +9,7 @@ import Founder from '../components/Founder.js'
 import FAQ from '../components/FAQ.js'
 import Footer from '../components/Footer.js'
 import Story from '../components/Story.js'
+import About from '../components/About.js'
 
 
 function HomeScreen() {
@@ -16,9 +17,10 @@ function HomeScreen() {
     <div className='home'>
         <Nav/>
         <Hero/>
+        <About/>
+        <Mission/>
         <Services/>
         <Partners/>
-        <Mission/>
         <Testimonials/>
         <Story/>
         <Founder/>

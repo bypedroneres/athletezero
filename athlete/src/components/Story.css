@@ -16,8 +16,15 @@
     margin-top: 3rem;
 }
 
+.story_Image {
+    height: 300px;
+    align-items: center;
+    display: flex;
+}
+
 .story_Text > p {
     display: flex;
+    font-size: 0.8rem;
     text-align: left;
     max-width: 400px;
 }
@@ -26,5 +33,10 @@
     .story_Content {
         display: flex;
         flex-direction: column;
+    }
+    .story_Image {
+        height: 400px;
+        align-items: center;
+        display: flex;
     }
 }

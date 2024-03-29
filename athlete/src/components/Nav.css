@@ -47,9 +47,29 @@
     text-decoration: underline;
 }
 
+.nav_Button > button {
+    padding: 0.5rem;
+    width: 100px;
+    cursor: pointer;
+    background-color: #121212;
+    color: #C4F969;
+    border-radius: 1rem;
+    border: 1px solid #C4F969;
+}
+
+.nav_Button > button:hover {
+    background-color: #C4F969;
+    color: #121212;
+}
+
 @media (max-width: 768px) {
-    .nav_Items {
+    .nav_Items > p {
         display: none;
     }
+}
 
+@media (min-width: 768px) {
+    .nav_Button {
+        display: none;
+    }
 }

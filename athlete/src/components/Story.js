@@ -6,7 +6,9 @@ function Story() {
     <div className='story'>
         <h2>Story Behind Our Name</h2>
         <div className='story_Content'>
-        <img src='/images/logo.png' alt='Logo' />
+          <div className='story_Image'>
+          <img src='/images/logo.png' alt='Logo' />
+          </div>
         <div className='story_Text'>
         <p>At Athlete Zero, we firmly believe in the uniqueness of every athlete. We adopt individualized approaches for each athlete, treating them as if they are the very first of their kind.</p>
                 <p>Much like the concept of a "patient zero" in epidemiology, each athlete we work with is considered our "athlete zero."</p>

@@ -2,6 +2,7 @@
     padding: 2rem;
     background-color: #121212;
     color: #FEFEFE;
+    padding-bottom: 4rem;
 }
 
 .services_Content > h2 {
@@ -15,7 +16,7 @@
     gap: 2rem;
 }
 
-.services_Card {
+.services_Card-1 {
     background-image: url('/public/images/mental-coaching.png');
     background-size: cover;
     background-position: center;
@@ -23,13 +24,28 @@
     border-radius: 2rem;
     height: 400px;
     display: flex;
+    width: 50%;
+    padding: 2rem;
+    flex-direction: column;
+    text-align: left;
+}
+
+.services_Card-2 {
+    background-image: url('/public/images/nutrition.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    height: 400px;
+    display: flex;
+    width: 50%;
     padding: 2rem;
     flex-direction: column;
     text-align: left;
 }
 
 .services_Text {
-    height: 100%; /* Define a height */
+    height: 100%; 
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -42,14 +58,25 @@
 }
 
 .services_Text > p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
     .services_Cards {
         display: flex;
+        align-items: center;
         flex-direction: column;
+    }
+
+    .services_Card-1 {
+        width:300px;
+        height: 500px;
+    }
+
+    .services_Card-2 {
+        width: 300px;
+        height: 500px;
     }
 
 }
