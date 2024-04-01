@@ -29,16 +29,17 @@
     flex-direction: column;
     bottom: 2rem;
     margin-top: 13rem;
-    text-align: left;
+    align-items: center;
 }
 
 .founder_Text > h2{
     margin: 0;
+    color: #C4F969;
 }
 
 .founder_Text > p {
     font-size: 0.8rem;
-    max-width: 350px;
+    max-width: 90%;
 }
 
 .founder_Buttons {
@@ -46,17 +47,15 @@
     gap: 1rem;
 }
 
-.founder_Button-1 > button {
-    padding: 0.5rem;
-    border-radius: 1rem;
-    border: none;
-    background-color: #C4F969;
-}
-
-.founder_Button-2 > button {
-    padding: 0.5rem;
-    border-radius: 1rem;
+.founder_Button > button {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    border-radius: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border: none;
     color: #FEFEFE;
+    color: #C4F969;
+    cursor: pointer;
     background-color: #121212;
 }

@@ -17,10 +17,10 @@ function HomeScreen() {
     <div className='home'>
         <Nav/>
         <Hero/>
-        <About/>
         <Mission/>
         <Services/>
         <Partners/>
+        <About/>
         <Testimonials/>
         <Story/>
         <Founder/>

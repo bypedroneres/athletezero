@@ -13,6 +13,7 @@
 .hero_Text {
     height: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: end;
 }
@@ -22,17 +23,13 @@
     font-family: 'Spring', sans-serif;
     text-align: center;
     color: inherit;
-    cursor: pointer;
-}
-
-.hero_Text > h1:hover {
     text-decoration: underline;
     text-decoration-color: #C4F969; 
 }
 
-
 .hero_Text > p {
     font-size: 0.8rem;
+    max-width: 650px;
 }
 
 @media (max-width: 768px) {

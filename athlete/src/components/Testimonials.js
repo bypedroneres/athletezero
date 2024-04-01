@@ -27,8 +27,8 @@ function Testimonials() {
                         <img src='/images/testimonials/testimonial1.png' alt='Alice Ferlito' />
                         </div>
                         <div className='testimonials_Name'>
-                        <h3>ROBERTO BAUTISTA AGUT</h3>
-                        <p>ATP CIRCUIT</p>
+                        <h3>ROBERTO BAUTISTA</h3>
+                        <p>Professional Tennis Player</p>
                         </div>
                     </div>
                     <div className='testimonials_Text'>

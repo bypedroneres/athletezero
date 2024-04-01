@@ -22,6 +22,10 @@
     display: flex;
 }
 
+.story_Image > img {
+    width: 250px;
+}
+
 .story_Text > p {
     display: flex;
     font-size: 0.8rem;

@@ -5,20 +5,14 @@ function Founder() {
   return (
     <div className='founder'>
         <div className='founder_Content'>
-            <h2>MEET THE FOUNDER</h2>
             <div className='founder_Card'>
                 <div className='founder_Text'>
-                    <h2>HELLO, I'M LUIS UTRILLA</h2>
-                    <p>I won the National Championship in Spain when I was 13 years old and etc etc etc bla bla bla.</p>
+                    <h2>THE FOUNDER'S STORY</h2>
+                    <p>Our founder, Luis, learned firsthand the consequences of overlooking non-sport-specific training. Today, he is committed to ensuring that younger generations don’t repeat the same mistakes.</p>
                 <div className='founder_Buttons'>
-                    <div className='founder_Button-1'>
+                    <div className='founder_Button'>
                         <button>
-                        Book a free discovery call
-                        </button>
-                    </div>
-                    <div className='founder_Button-2'>
-                        <button>
-                        Book a free discovery call
+                        Learn more
                         </button>
                     </div>
                 </div>

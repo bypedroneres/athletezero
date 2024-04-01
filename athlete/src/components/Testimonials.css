@@ -28,7 +28,7 @@
 
 .testimonials_Card {
     display: flex;
-    min-width: 350px;
+    min-width: 300px;
     padding: 1.5rem;
     text-align: left;
     border-radius: 1.5rem;
