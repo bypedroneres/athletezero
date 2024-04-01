@@ -39,7 +39,7 @@
         flex-direction: column;
     }
     .story_Image {
-        height: 400px;
+        height: 200px;
         align-items: center;
         display: flex;
     }
