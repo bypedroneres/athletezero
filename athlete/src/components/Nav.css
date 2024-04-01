@@ -49,17 +49,39 @@
 
 .nav_Button > button {
     padding: 0.5rem;
-    width: 100px;
+    width: 150px;
     cursor: pointer;
     background-color: #121212;
     color: #C4F969;
-    border-radius: 1rem;
     border: 1px solid #C4F969;
 }
 
 .nav_Button > button:hover {
     background-color: #C4F969;
     color: #121212;
+}
+
+.nav_MobileItems {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    color: #fefefe;
+    font-size: 0.8rem;
+    padding: 1rem;
+    top: 50px;
+    right: 2rem;
+    flex-direction: column;
+}
+
+.nav_MobileItems > p {
+    cursor: pointer;
+}
+
+.nav_MobileItems > p:hover {
+    text-decoration: underline;
+    text-decoration-color: #C4F969;
 }
 
 @media (max-width: 768px) {
