@@ -3,6 +3,7 @@ import '../components/Nav.css';
 
 function Nav() {
   const [scrolling, setScrolling] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +21,9 @@ function Nav() {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
     <div className={`nav ${scrolling ? 'scrolled' : ''}`}>
@@ -35,12 +39,23 @@ function Nav() {
           <p>NUTRITION</p>
           <p>CONTACT US</p>
         </div>
+        
+        {/* Mobile Menu */}
         <div className='nav_Button'>
-          <button>
+          <button onClick={toggleMenu}>
             Menu
           </button>
-
         </div>
+
+        {/* Mobile Menu Items */}
+        {isMenuOpen && (
+          <div className='nav_MobileItems'>
+            <p>ABOUT US</p>
+            <p>MENTAL COACHING</p>
+            <p>NUTRITION</p>
+            <p>CONTACT US</p>
+          </div>
+        )}
       </div>
     </div>
   );
