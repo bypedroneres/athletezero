@@ -28,7 +28,7 @@
 
 .testimonials_Card {
     display: flex;
-    min-width: 300px;
+    min-width: 250px;
     padding: 1.5rem;
     text-align: left;
     border-radius: 1.5rem;
@@ -72,5 +72,19 @@
     font-size: 0.8rem;
 }
 
+.testimonials_Arrow {
+    display: flex;
+    align-items: center;
+
+}
+
+.testimonials_Arrow > p {
+    position: absolute;
+    right: 10px;
+    background-color: #FEFEFE;
+    color: #121212;
+    border-radius: 4rem;
+    padding: 1rem;
+}
 
 

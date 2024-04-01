@@ -37,6 +37,7 @@ function Nav() {
           <p>ABOUT US</p>
           <p>MENTAL COACHING</p>
           <p>NUTRITION</p>
+          <p>AMBASSADORS</p>
           <p>CONTACT US</p>
         </div>
         
@@ -53,6 +54,7 @@ function Nav() {
             <p>ABOUT US</p>
             <p>MENTAL COACHING</p>
             <p>NUTRITION</p>
+            <p>AMBASSADORS</p>
             <p>CONTACT US</p>
           </div>
         )}

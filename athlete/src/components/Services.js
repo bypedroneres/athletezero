@@ -16,7 +16,7 @@ function Services() {
                 <div className='services_Card-2'>
                     <div className='services_Text'>
                     <h3>NUTRITION</h3>
-                    <p>Generic nutritional advice doesn’t set anyone apart; to be successful, you have to be different, you have to be the best, you have to create a plan and stick to it.</p>
+                    <p>Generic nutritional advice doesn’t set anyone apart; to be successful, you have to be different, you have to be the best. Comprehending the specific foods and their optimal timing based on your body's needs is crucial for an athlete's success.</p>
                 </div>
                 </div>
             </div>

@@ -15,3 +15,11 @@
 .partners_Content > img:hover {
     filter: grayscale(0);
 }
+
+@media (max-width: 768px) {
+    .partners_Content > img {
+        height: 1rem;
+        filter: grayscale(1);
+        cursor: pointer;
+    }
+}
