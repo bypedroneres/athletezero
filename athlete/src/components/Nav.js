@@ -34,7 +34,6 @@ function Nav() {
 
         {/* Desktop Menu */}
         <div className='nav_Items'>
-          <p>ABOUT US</p>
           <p>MENTAL COACHING</p>
           <p>NUTRITION</p>
           <p>AMBASSADORS</p>
@@ -51,7 +50,6 @@ function Nav() {
         {/* Mobile Menu Items */}
         {isMenuOpen && (
           <div className='nav_MobileItems'>
-            <p>ABOUT US</p>
             <p>MENTAL COACHING</p>
             <p>NUTRITION</p>
             <p>AMBASSADORS</p>

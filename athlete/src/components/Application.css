@@ -1,0 +1,31 @@
+.application_Content {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #121212;
+    color: #FEFEFE;
+}
+
+.application_Content > h1 {
+    font-family: 'Spring';
+}
+
+.application_Content > button {
+    background-color: #C4F969;
+    border: none;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #C4F969;
+    margin-top: 1rem;
+}
+
+.application_Content > button:hover {
+    background-color: #121212;
+    color: #C4F969;
+    cursor: pointer;
+    border: 1px solid #C4F969;
+}
+

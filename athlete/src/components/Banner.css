@@ -1,0 +1,36 @@
+.banner_Content {
+    /* background-image: url('/public/images/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    color: #FEFEFE;
+    padding: 2rem;
+    height: 80vh;
+    align-items: center;
+}
+
+.banner_Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.banner_Text > h1{
+    font-size: 3rem;
+    width: 70%;
+    font-family: 'Spring';
+}
+
+@media (max-width: 768px) {
+    .banner_Content {
+        height: 80vh;
+    }
+    .banner_Text > h1 {
+        font-size: 2.2rem;
+    }
+}
