@@ -3,6 +3,8 @@ import Nav from '../components/Nav'
 import Offer from '../components/Offer'
 import Application from '../components/Application'
 import Footer from '../components/Footer'
+// import PopUp from '../components/PopUp'
+
 
 function AmbassadorsScreen() {
   return (
@@ -10,6 +12,7 @@ function AmbassadorsScreen() {
         <Nav/>
         <Offer/>
         <Application/>
+
         <Footer/>
     </div>
   )

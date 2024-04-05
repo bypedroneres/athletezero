@@ -1,0 +1,65 @@
+.popup {
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_Content {
+    padding: 4rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_Content > form {
+    background-color: #FEFEFE;
+    display: flex;
+    border-radius: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_Content > form > h4 {
+    font-family: 'Spring';
+    font-size: 1rem;
+}
+
+.popup_Content > form > label > input {
+    background-color: #D9D9D9;
+    border: none;
+    padding: 1rem;
+    width: 200px;
+    margin-bottom: 1rem;
+    border-radius:0.5rem
+}
+
+.popup_Content > form  > button {
+    background-color: #121212;
+    color: #FEFEFE;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.popup_Content > form  > button:hover {
+    background-color: #C4F969;
+    color:#121212;
+}
+
+.popup_Content > form  > label > textarea {
+    border: none;
+    width: 200px;
+    background-color: #FEFEFE;
+    border: 1px solid #D9D9D9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem; /* Add margin bottom for spacing */
+    resize: vertical; /* Allow vertical resizing */
+    align-self: center; /* Center the textarea */
+}

@@ -1,8 +1,8 @@
 .banner_Content {
-    /* background-image: url('/public/images/hero-background.png');
+    background-image: url('/public/images/mental/background.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-color: #121212;
     display: flex;
     flex-direction: column;
@@ -21,16 +21,21 @@
 }
 
 .banner_Text > h1{
-    font-size: 3rem;
-    width: 70%;
+    font-size: 4rem;
+    width: 100%;
+    color: #C4F969;
     font-family: 'Spring';
 }
 
 @media (max-width: 768px) {
     .banner_Content {
         height: 80vh;
+        background-image: url('/public/images/mental/background-mobile.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .banner_Text > h1 {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 }

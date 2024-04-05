@@ -2,6 +2,18 @@
     background-color: #121212;
     color: #FEFEFE;
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mental_Folder {
+    background-color: #202020;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: 'Spring';
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
 }
 
 .mental_Content > h3 {
@@ -12,11 +24,11 @@
 
 .mental_Content > p {
     font-size: 1rem;
+    max-width: 700px;
 }
 
 .mental_Cards {
     display: flex;
-    margin-top: 4rem;
     margin-bottom: 4rem;
     gap: 1rem;
     align-items: center;
@@ -39,9 +51,26 @@
     border-radius: 1rem;
 }
 
-.performance_Cards {
+.performance_Cards_Group {
     display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+}
+
+.performance_Cards-1 {
+    display: flex;
+    max-width: 800px;
     margin-top: 4rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.performance_Cards-2 {
+    display: flex;
+    max-width: 800px;
+    margin-top: 1rem;
     margin-bottom: 4rem;
     gap: 1rem;
     align-items: center;
@@ -51,12 +80,21 @@
 .performance_Card {
     background-color: #202020;
     padding: 1rem;
+    max-width: 300px;
+    height: 150px;
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 0.8rem;
+}
+.performance_Card > img {
+    height: 50px;
+    padding: 1rem;
+}
+.performance_Card > p {
+    width: 170px;
 }
 
 @media (max-width: 768px) {
@@ -66,9 +104,16 @@
         gap: 2rem;
     }
 
-    .performance_Cards {
+    .performance_Cards-1 {
         display: flex;
         flex-direction: column;
         gap: 2rem;
+    }
+
+    .performance_Cards-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
     }
 }

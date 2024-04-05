@@ -6,7 +6,7 @@ function Banner() {
     <div className='banner'>
         <div className='banner_Content'>
             <div className='banner_Text'>
-            <h1>“Control your <span className='underline'>Mind</span>, Dominate the <span className='underline'>Game</span>”</h1>
+            <h1>“Control your Mind, Dominate the Game”</h1>
             </div>
         </div>
     </div>

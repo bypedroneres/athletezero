@@ -1,0 +1,41 @@
+.cta_Content {
+    display: flex;
+    background-color: #121212;
+    color: #FEFEFE;
+    padding: 4rem;
+}
+
+.cta_Image {
+    width: 400px;
+}
+
+.cta_Image > img {
+    width: 300px;
+}
+
+.cta_Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta_Text > h1 {
+    font-family: 'Spring';
+}
+.cta_Text > button {
+    padding: 1rem;
+    background-color: #C4F969;
+    border: 1px solid #C4F969;
+    color: #121212;
+    width: 200px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.cta_Text > button:hover {
+    background-color: #121212;
+    color: #C4F969;
+    border: 1px solid #C4F969;
+    cursor: pointer;
+}
