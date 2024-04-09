@@ -39,3 +39,10 @@
     border: 1px solid #C4F969;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .cta_Content {
+        display: flex;
+        flex-direction: column;
+    }
+}

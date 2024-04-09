@@ -58,22 +58,10 @@
 
 }
 
-.performance_Cards-1 {
-    display: flex;
-    max-width: 800px;
-    margin-top: 4rem;
+.performance_Cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.performance_Cards-2 {
-    display: flex;
-    max-width: 800px;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    gap: 1rem;
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -93,6 +81,7 @@
     height: 50px;
     padding: 1rem;
 }
+
 .performance_Card > p {
     width: 170px;
 }
@@ -104,16 +93,21 @@
         gap: 2rem;
     }
 
-    .performance_Cards-1 {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
+    .performance_Cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 2rem;
     }
 
-    .performance_Cards-2 {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        margin-top: 2rem;
+    .performance_Card {
+        font-size: 0.6rem;
+        max-width: 150px;
+        height: 150px;
     }
+
+    .performance_Card > p {
+        width: 150px;
+    }
+
 }
