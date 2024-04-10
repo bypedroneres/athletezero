@@ -18,12 +18,35 @@
 
 .offer_Text > h1 {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Spring';
 }
 
 .offer_Text > p {
     font-size: 0.8rem;
+}
+
+.offer_Icons {
+    display: flex;
+    margin-top: 2rem;
+
+    justify-content: space-between;
+}
+
+.offer_Icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.offer_Icon > img {
+    width: 5rem;
+}
+
+.offer_Icon > p {
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 .offer_Image > img {
@@ -42,13 +65,15 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-
         width: 100%;
     }
 
     .offer_Image > img {
         width: 300px;
-        margin-left: -30px;
+    }
+
+    .offer_Icon {
+        width: 100px;
     }
     
 }

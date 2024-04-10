@@ -12,7 +12,6 @@ function AmbassadorsScreen() {
         <Nav/>
         <Offer/>
         <Application/>
-
         <Footer/>
     </div>
   )

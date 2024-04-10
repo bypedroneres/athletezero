@@ -11,21 +11,45 @@
     font-family: 'Spring';
 }
 
-.application_Content > button {
-    background-color: #C4F969;
+.application_Buttons {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.application_Buttons > button {
     border: none;
     padding: 1rem;
     width: 200px;
     border-radius: 0.5rem;
     font-size: 1rem;
-    border: 1px solid #C4F969;
     margin-top: 1rem;
+    border: 1px solid #C4F969;
 }
 
-.application_Content > button:hover {
+.learn_More_Button {
+    background-color: #121212;
+    color: #C4F969;
+    border: 1px solid #C4F969;
+}
+
+.apply_Button {
+    background-color: #C4F969;
+    color: #121212;
+    border: 1px solid #C4F969;
+}
+
+.learn_More_Button:hover {
+    background-color: #C4F969;
+    color: #121212;
+    cursor: pointer;
+    border: 1px solid #C4F969;
+}
+
+.apply_Button:hover {
     background-color: #121212;
     color: #C4F969;
     cursor: pointer;
     border: 1px solid #C4F969;
 }
-
