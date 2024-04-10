@@ -32,6 +32,7 @@ function MentalCoachingScreen() {
         </div>
         <p>You have trained hard, you want it. You have the talent, you know it. Yet, when you step onto the field, your mind deceives you. It’s time to control it; let’s transform this obstacle into a force that brings out your best self.</p>
         <h3>What is <span className='underline'>Mental Performance?</span></h3>
+        <div className='performance_Text'>
         <p>Our mental coaching sessions are tailored to enhance your performance through the power that your mind unveils. We equip our athletes with a mental toolkit that includes:</p>
         <div className='performance_Cards'>
           <div className='performance_Card'>
@@ -57,6 +58,7 @@ function MentalCoachingScreen() {
           <div className='performance_Card'>
           <img src='/images/mental/svgs/icon5.png' alt='first card' />
             <p>Creating emotional anchors to induce a desired emotional state.</p>
+          </div>
           </div>
           </div>
           </div>
