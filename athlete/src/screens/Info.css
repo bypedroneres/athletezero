@@ -1,0 +1,14 @@
+.info_Content {
+    padding: 4rem;
+    background-color: #121212;
+    color: #FEFEFE;
+    padding-top: 8rem;
+}
+
+.info_Content > h2 {
+    font-family: 'Spring';
+}
+
+.info_Content > p {
+    text-align: left;
+}
