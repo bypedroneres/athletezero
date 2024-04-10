@@ -2,16 +2,15 @@
     display: flex;
     background-color: #121212;
     color: #FEFEFE;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .cta_Image {
-    width: 40%;
+    width: 45%;
 }
 
 .cta_Image > img {
-    width: 300px;
-    
+    width: 200px;
 }
 
 .cta_Text {
