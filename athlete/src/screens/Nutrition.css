@@ -1,4 +1,4 @@
-.mental_Content {
+.nutrition_Content {
     background-color: #121212;
     color: #FEFEFE;
     padding: 4rem;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.mental_Folder {
+.nutrition_Folder {
     background-color: #202020;
     padding: 1rem;
     border-radius: 1rem;
@@ -16,17 +16,17 @@
     margin-bottom: 3rem;
 }
 
-.mental_Content > h3 {
+.nutrition_Content > h3 {
     font-family: 'Spring';
 }
 
-.mental_Content > p {
+.nutrition_Content > p {
     font-size: 1rem;
     padding: 2rem;
     max-width: 700px;
 }
 
-.mental_Cards {
+.nutrition_Cards {
     display: flex;
     margin-bottom: 1rem;
     gap: 1rem;
@@ -35,7 +35,7 @@
     justify-content: space-between;
 }
 
-.mental_Card_Dark{
+.nutrition_Card_Dark {
     background-color: #202020;
     color: #FEFEFE;
     padding: 1rem;
@@ -43,7 +43,7 @@
     border-radius: 1rem;
 }
 
-.mental_Card_Green{
+.nutrition_Card_Green {
     background-color: #C4F969;
     color: #121212;
     padding: 1rem;
@@ -57,12 +57,11 @@
     display: flex;
     flex-direction: column;
     background-color: blue;
-
 }
 
 .performance_Cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     justify-content: space-around;
 }
@@ -79,6 +78,7 @@
     flex-direction: column;
     font-size: 0.8rem;
 }
+
 .performance_Card > img {
     height: 50px;
     padding: 1rem;
@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 768px) {
-    .mental_Cards {
+    .nutrition_Cards {
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -111,5 +111,4 @@
     .performance_Card > p {
         width: 150px;
     }
-
 }

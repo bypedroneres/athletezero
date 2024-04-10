@@ -5,6 +5,7 @@ import './App.css';
 import HomeScreen from './screens/HomeScreen'; 
 import MentalCoachingScreen from './screens/MentalCoachingScreen';
 import AmbassadorsScreen from './screens/AmbassadorsScreen';
+import NutritionScreen from './screens/NutritionScreen';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes> 
           <Route path="/" element={<HomeScreen />} />
           <Route path="/mental" element={<MentalCoachingScreen />} />
+          <Route path="/nutrition" element={<NutritionScreen />} />
           <Route path="/ambassadors" element={<AmbassadorsScreen />} />
         </Routes>
       </div>

@@ -1,0 +1,41 @@
+.heading_Content {
+    background-image: url('/public/images/nutrition/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    color: #FEFEFE;
+    padding: 2rem;
+    height: 60vh;
+    align-items: center;
+}
+
+.heading_Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.heading_Text > h1 {
+    font-size: 3rem;
+    width: 80%;
+    color: #C4F969;
+    font-family: 'Spring';
+}
+
+@media (max-width: 768px) {
+    .heading_Content {
+        height: 50vh;
+        background-image: url('/public/images/nutrition/background-mobile.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .heading_Text > h1 {
+        font-size: 2rem;
+    }
+}
