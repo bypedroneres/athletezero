@@ -95,7 +95,7 @@
         gap: 2rem;
     }
 
-    .performance_Cards {
+    .nutrition_Performance_Cards  {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;

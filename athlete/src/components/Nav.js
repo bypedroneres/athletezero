@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link component
 import '../components/Nav.css';
 
 function Nav() {
@@ -28,16 +29,17 @@ function Nav() {
   return (
     <div className={`nav ${scrolling ? 'scrolled' : ''}`}>
       <div className='nav_Content'>
-        <div className='nav_Logo'>
+        {/* Logo as a Link to home screen */}
+        <Link to="/" className='nav_Logo'>
           <img src='/images/logo.png' alt='Logo' />
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className='nav_Items'>
-          <p>MENTAL COACHING</p>
-          <p>NUTRITION</p>
-          <p>AMBASSADORS</p>
-          <p>CONTACT US</p>
+          <Link to="/mental">MENTAL COACHING</Link>
+          <Link to="/nutrition">NUTRITION</Link>
+          <Link to="/ambassadors">AMBASSADORS</Link>
+          <Link to="/info">CONTACT US</Link>
         </div>
         
         {/* Mobile Menu */}
@@ -50,10 +52,10 @@ function Nav() {
         {/* Mobile Menu Items */}
         {isMenuOpen && (
           <div className='nav_MobileItems'>
-            <p>MENTAL COACHING</p>
-            <p>NUTRITION</p>
-            <p>AMBASSADORS</p>
-            <p>CONTACT US</p>
+            <Link to="/mental">MENTAL COACHING</Link>
+            <Link to="/nutrition">NUTRITION</Link>
+            <Link to="/ambassadors">AMBASSADORS</Link>
+            <Link to="/info">CONTACT US</Link>
           </div>
         )}
       </div>
