@@ -6,11 +6,12 @@
 }
 
 .cta_Image {
-    width: 300px;
+    width: 40%;
 }
 
 .cta_Image > img {
     width: 300px;
+    
 }
 
 .cta_Text {
@@ -18,7 +19,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
 }
 
 .cta_Text > h1 {
@@ -52,6 +53,10 @@
     }
 
     .cta_Image {
+        width: 100%;
+    }
+
+    .cta_Text {
         width: 100%;
     }
 
