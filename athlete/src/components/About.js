@@ -4,7 +4,6 @@ import "../components/About.css"
 function About() {
   return (
     <div className='about'>
-        <h2>ABOUT US</h2>
         <div className='about_Content'>
             <div className='about_Image'>
             <img src='/images/mockup.png' alt='Phone' />

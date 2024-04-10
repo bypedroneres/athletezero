@@ -4,7 +4,7 @@ import "../components/Story.css"
 function Story() {
   return (
     <div className='story'>
-        <h2>Story Behind Our Name</h2>
+        <h2>The Story Behind Our Name</h2>
         <div className='story_Content'>
           <div className='story_Image'>
           <img src='/images/logotype.png' alt='Logo' />

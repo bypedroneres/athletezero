@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .cta_Text > h1 {
@@ -44,5 +45,20 @@
     .cta_Content {
         display: flex;
         flex-direction: column;
+    }
+
+    .cta_Image > img {
+        width: 200px;
+    }
+
+    .cta_Image {
+        width: 100%;
+    }
+
+    .cta_Text > h1 {
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
     }
 }

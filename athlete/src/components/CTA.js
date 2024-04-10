@@ -9,7 +9,8 @@ function CTA() {
             <img src='/images/mockup.png' alt='Phone' />
             </div>
             <div className='cta_Text'>
-                <h1>UNLEASH YOUR POTENTIAL, BECOME AN ATHLETE ZERO</h1>
+                <h1>UNLEASH YOUR POTENTIAL,<br>
+                </br> BECOME AN ATHLETE ZERO</h1>
                 <button>Apply</button>
             </div>
         </div> 

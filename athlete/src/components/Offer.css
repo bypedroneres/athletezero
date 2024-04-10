@@ -29,8 +29,7 @@
 .offer_Icons {
     display: flex;
     margin-top: 2rem;
-
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .offer_Icon {

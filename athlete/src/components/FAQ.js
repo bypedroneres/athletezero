@@ -13,14 +13,14 @@ function FAQ() {
     return (
         <div className='faq'>
             <div className='faq_Content'>
-                <h2>Q&A</h2>
+                <h2>FAQ</h2>
                 <div className='faq_Questions'>
                     {[1 ].map((_, index) => (
                         <div className='faq_Question' key={index}>
                             {/* Add onClick event to toggle question */}
                             <div className="faq_QuestionHeader" onClick={() => toggleQuestion(index)}>
                                 <h2>
-                                What qualifications and experience do the coaches at Athlete Zero possess?
+                                What qualifications and experience do the professionals at Athlete Zero possess?
                                 </h2>
                                 <svg fill="#FEFEFE" width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"/>

@@ -13,15 +13,29 @@ function Testimonials() {
                 <div className='testimonials_Card'>
                     <div className='testimonials_Header'>
                         <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial2.png' alt='Alice Ferlito' />
+                        <img src='/images/testimonials/testimonial7.png' alt='Alice Ferlito' />
                         </div>
                         <div className='testimonials_Name'>
-                        <h3>Alice Ferlito</h3>
-                        <p>Princeton University</p>
+                        <h3>Cisco Salvat</h3>
+                        <p>FC Barcelona</p>
                         </div>
                     </div>
                     <div className='testimonials_Text'>
-                        <p>"Discovering Athlete Zero has been a game-changer for me. I couldn't imagine that nutrition would have such a big impact in how I feel and perform."</p>
+                        <p>"Extremely grateful to work with Athlete Zero! Rachael is a great professional who has always been able to identify what I need. I am certain that it will be the same with you."</p>
+                    </div>
+                </div>
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial3.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Nil Giraldez</h3>
+                        <p>Notre Dame University</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>"I barely knew about mental training and nutrition until I came to Athlete Zero. It is completely transforming my game!" </p>
                     </div>
                 </div>
                 <div className='testimonials_Card'>
@@ -69,34 +83,6 @@ function Testimonials() {
                 <div className='testimonials_Card'>
                     <div className='testimonials_Header'>
                         <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial7.png' alt='Alice Ferlito' />
-                        </div>
-                        <div className='testimonials_Name'>
-                        <h3>Cisco Salvat</h3>
-                        <p>FC Barcelona</p>
-                        </div>
-                    </div>
-                    <div className='testimonials_Text'>
-                        <p>"Extremely grateful to work with Athlete Zero! Rachael is a great professional who has always been able to identify what I need. I am certain that it will be the same with you."</p>
-                    </div>
-                </div>
-                <div className='testimonials_Card'>
-                    <div className='testimonials_Header'>
-                        <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial3.png' alt='Alice Ferlito' />
-                        </div>
-                        <div className='testimonials_Name'>
-                        <h3>Nil Giraldez</h3>
-                        <p>Notre Dame University</p>
-                        </div>
-                    </div>
-                    <div className='testimonials_Text'>
-                        <p>"I barely knew about mental training and nutrition until I came to Athlete Zero. It is completely transforming my game!" </p>
-                    </div>
-                </div>
-                <div className='testimonials_Card'>
-                    <div className='testimonials_Header'>
-                        <div className='testimonials_Pic'>
                         <img src='/images/testimonials/testimonial5.png' alt='Alice Ferlito' />
                         </div>
                         <div className='testimonials_Name'>
@@ -106,6 +92,20 @@ function Testimonials() {
                     </div>
                     <div className='testimonials_Text'>
                         <p>"I have trained at many places throughout my career, and Athlete Zero is absolutely the best. They understand exactly what you need and empower you to reach the next level."</p>
+                    </div>
+                </div>
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial2.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Alice Ferlito</h3>
+                        <p>Princeton University</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>"Discovering Athlete Zero has been a game-changer for me. I couldn't imagine that nutrition would have such a big impact in how I feel and perform."</p>
                     </div>
                 </div>
                 
