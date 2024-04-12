@@ -11,7 +11,7 @@ function CTA() {
             <div className='cta_Text'>
                 <h1>UNLEASH YOUR POTENTIAL,<br>
                 </br> BECOME AN ATHLETE ZERO</h1>
-                <button>Apply</button>
+                <button>Get Started</button>
             </div>
         </div> 
     </div>

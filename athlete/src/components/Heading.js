@@ -6,7 +6,7 @@ function Heading() {
     <div className='heading'>
         <div className='heading_Content'>
             <div className='heading_Text'>
-            <h1>“How you Fuel the Body is how you Heal the Body.”</h1>
+            <h1>How you Fuel the Body is how you Heal the Body</h1>
             </div>
         </div>
     </div>

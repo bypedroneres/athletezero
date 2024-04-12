@@ -45,7 +45,7 @@ function Nav() {
         {/* Mobile Menu */}
         <div className='nav_Button'>
           <button onClick={toggleMenu}>
-            Menu
+          <p>&#9776;</p>
           </button>
         </div>
 

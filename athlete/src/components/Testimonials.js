@@ -7,9 +7,9 @@ function Testimonials() {
         <div className='testimonials_Content'>
             <h2>TESTIMONIALS</h2>
             <div className='testimonials_Cards'>
-                <div className='testimonials_Arrow'>
+                {/* <div className='testimonials_Arrow'>
                     <p>→</p>
-                </div>
+                </div> */}
                 <div className='testimonials_Card'>
                     <div className='testimonials_Header'>
                         <div className='testimonials_Pic'>

@@ -11,26 +11,25 @@
 .story_Content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
     margin-top: 3rem;
 }
 
 .story_Image {
-    height: 300px;
     align-items: center;
     display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
-.story_Image > img {
-    width: 250px;
+.story_Text {
+    width: 50%;
+    padding-right: 2rem;
 }
 
 .story_Text > p {
     display: flex;
     font-size: 1rem;
     text-align: left;
-    max-width: 400px;
 }
 
 @media (max-width: 768px) {
@@ -39,8 +38,24 @@
         flex-direction: column;
     }
     .story_Image {
-        height: 200px;
         align-items: center;
         display: flex;
+        width: 100%;
     }
+
+    .story_Image > img {
+        width: 90%;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+    }
+
+    .story_Text {
+        width: 90%;
+        padding-right: 0rem;
+    }
+
+    .story_Text > p {
+        text-align: center;
+    }
+
 }

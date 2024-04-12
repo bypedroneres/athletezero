@@ -57,3 +57,16 @@
     cursor: pointer;
     background-color: #121212;
 }
+
+@media (max-width: 768px) {
+    .founder_Card {
+        background-image: url('/public/images/founder/founder-mobile.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border-radius: 2rem;
+    }
+}

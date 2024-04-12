@@ -11,9 +11,6 @@ function NutritionScreen() {
         <Nav/>
         <Heading/>
         <div className='nutrition_Content'>
-  <div className='nutrition_Folder'>
-    <p>Generic nutritional advice doesn’t set anyone apart; to be successful, you have to be different. Comprehending the specific foods and their optimal timing based on your body’s needs is crucial for an athlete’s success.</p>
-  </div>
   <h3>Have you ever had the following <span className='underline'>thoughts?</span></h3>
   <div className='nutrition_Cards'>
     <div className='nutrition_Card_Dark'>

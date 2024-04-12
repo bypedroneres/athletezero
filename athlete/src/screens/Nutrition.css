@@ -105,4 +105,8 @@
     .performance_Card > p {
         width: 150px;
     }
+
+    .nutrition_Content > p {
+        width: 100%;
+    }
 }

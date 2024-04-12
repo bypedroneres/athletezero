@@ -48,15 +48,25 @@
 
 .nav_Items > a:hover {
     text-decoration: underline;
+    text-decoration-color: #C4F969;
 }
 
 .nav_Button > button {
-    padding: 0.5rem;
-    width: 150px;
     cursor: pointer;
+    padding: 0rem;
+    margin: 0px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
     background-color: #121212;
     color: #C4F969;
     border: 1px solid #C4F969;
+}
+
+.nav_Button > button >  p {
+    font-size: 1.5rem;
 }
 
 .nav_Button > button:hover {
@@ -72,7 +82,7 @@
     background-color: #121212;
     color: #fefefe;
     font-size: 0.8rem;
-    top: 50px;
+    top: 70px;
     right: 2rem;
     flex-direction: column;
 }

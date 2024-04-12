@@ -19,7 +19,7 @@ function Offer() {
                   </div>
                   <div className='offer_Icon'>
                   <img src='/images/ambassadors/image-3.svg' alt='Offer' />
-                  <p>RECEIVE 5% <br></br>COMMISION</p>
+                  <p>RECEIVE 5<spam className='offer_Fix'>%</spam> <br></br>COMMISION</p>
                   </div>
                 </div>
             </div>

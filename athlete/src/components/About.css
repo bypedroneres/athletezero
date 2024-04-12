@@ -29,14 +29,8 @@
     transition: transform 0.3s ease;
 }
 
-.about_Image > img:hover {
-    transform: scale(1.1) rotate(5deg); 
-    cursor: pointer;
-}
-
-
 .about_Text {
-    width: 50%;
+    width: 45%;
     justify-content: center;
     text-align: left;
 }
@@ -50,16 +44,13 @@
     margin-bottom: 1rem;
 }
 
-.about_Text > h2:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    text-decoration-color: #C4F969;
-}
 
 .about_Text > button {
-    padding: 0.5rem;
-    width: 100px;
-    border-radius: 1rem;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: #C4F969;
     border: 1px solid #C4F969;
     transition: background-color 0.3s, color 0.3s; 
@@ -81,5 +72,6 @@
 
     .about_Text {
         text-align: center;
+        width: 90%;
     }
 }

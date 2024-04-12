@@ -11,10 +11,6 @@ function MentalCoachingScreen() {
         <Nav/>
         <Banner/>
         <div className='mental_Content'>
-          <div className='mental_Folder'>
-            <p>“The <spam className='underline'>greatest athletes</spam> are characterized by their ability to <spam className='underline'>control their minds</spam>.
-                Learning how to deal with pressure, reduce anxiety, and flow in the present is key to any <spam className='underline'>athlete’s success</spam>.”</p>
-          </div>
         <h3>Have you ever had the following <spam className='underline'>thoughts?</spam></h3>
         <div className='mental_Cards'>
           <div className='mental_Card_Dark'>
@@ -33,31 +29,31 @@ function MentalCoachingScreen() {
         <p>You have trained hard, you want it. You have the talent, you know it. Yet, when you step onto the field, your mind deceives you. It’s time to control it; let’s transform this obstacle into a force that brings out your best self.</p>
         <h3>What is <span className='underline'>Mental Performance?</span></h3>
         <div className='performance_Text'>
-        <p>Our mental coaching sessions are tailored to enhance your performance through the power that your mind unveils. We equip our athletes with a mental toolkit that includes:</p>
+        <p>Our mental coaching sessions are tailored to enhance your performance through the power that your mind unveils.<br></br> <br></br> We equip our athletes with a mental toolkit that includes:</p>
         <div className='performance_Cards'>
           <div className='performance_Card'>
-          <img src='/images/mental/svgs/icon4.png' alt='first card' />
-            <p>A pre-game routine to prepare you for the game.</p>
+          <img src='/images/mental/svgs/svg-6.svg' alt='first card' />
+            <p>A <spam className='underline'>pre-game routine</spam> to prepare you for the game.</p>
           </div>
           <div className='performance_Card'>
-          <img src='/images/mental/svgs/icon3.png' alt='first card' />
-            <p>Guidance on performing visualizations by yourself.</p>
+          <img src='/images/mental/svgs/svg-3.svg' alt='second card' />
+            <p>Guidance on performing <spam className='underline'>visualizations</spam> by yourself.</p>
           </div>
           <div className='performance_Card'>
-          <img src='/images/mental/svgs/icon1.png' alt='first card' />
-            <p>Learning to stay present through mindfulness.</p>
+          <img src='/images/mental/svgs/svg-2.svg' alt='third card' />
+            <p>Learning to stay present through <spam className='underline'>mindfulness</spam>.</p>
           </div>
           <div className='performance_Card'>
-          <img src='/images/mental/svgs/icon6.png' alt='first card' />
-            <p>Simulation of stress situations to be prepared for when they come.</p>
+          <img src='/images/mental/svgs/svg-4.svg' alt='fourth card' />
+            <p><spam className='underline'>Simulation of stress situations</spam> to be prepared for when they come.</p>
           </div>
           <div className='performance_Card'>
-          <img src='/images/mental/svgs/icon2.png' alt='first card' />
-            <p>Understanding the impact of self-talk and learning how to use it.</p>
+          <img src='/images/mental/svgs/svg-1.svg' alt='fifth card' />
+            <p>Understanding the impact of <spam className='underline'>self-talk</spam> and learning how to use it.</p>
           </div>
           <div className='performance_Card'>
-          <img src='/images/mental/svgs/icon5.png' alt='first card' />
-            <p>Creating emotional anchors to induce a desired emotional state.</p>
+          <img src='/images/mental/svgs/svg-5.svg' alt='sixth card' />
+            <p>Creating <spam className='underline'>emotional anchors</spam> to induce a desired emotional state.</p>
           </div>
           </div>
           </div>
