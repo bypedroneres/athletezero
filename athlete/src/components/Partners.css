@@ -17,9 +17,22 @@
 }
 
 @media (max-width: 768px) {
+    .partners_Content {
+        overflow-x: auto;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .partners_Content::-webkit-scrollbar {
+        display: none; /* Hide the scrollbar */
+    }
+
     .partners_Content > img {
-        height: 1rem;
+        height: 3rem;
         filter: grayscale(1);
         cursor: pointer;
     }
 }
+
