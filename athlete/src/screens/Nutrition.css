@@ -98,12 +98,12 @@
 
     .performance_Card {
         font-size: 0.6rem;
-        max-width: 150px;
-        height: 150px;
+        max-width: 130px;
+        height: 130px;
     }
 
     .performance_Card > p {
-        width: 150px;
+        width: 130px;
     }
 
     .nutrition_Content > p {
