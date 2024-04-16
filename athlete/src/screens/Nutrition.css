@@ -37,7 +37,7 @@
 
 .nutrition_Card_Dark {
     background-color: #202020;
-    color: #FEFEFE;
+    color: #fefefec2;
     padding: 1rem;
     width: 100%;
     border-radius: 1rem;
@@ -45,7 +45,7 @@
 
 .nutrition_Card_Green {
     background-color: #C4F969;
-    color: #121212;
+    color: #121212b4;
     padding: 1rem;
     display: flex;
     height: 100%;
@@ -64,18 +64,16 @@
     background-color: #202020;
     padding: 1rem;
     max-width: 300px;
-    height: 150px;
     border-radius: 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     font-size: 0.8rem;
 }
 
-.performance_Card > img {
-    height: 50px;
-    padding: 1rem;
+.performance_Card > h3 {
+    font-family: 'Spring';
 }
 
 .performance_Card > p {
@@ -99,7 +97,7 @@
     .performance_Card {
         font-size: 0.6rem;
         max-width: 130px;
-        height: 130px;
+        height: 110px;
     }
 
     .performance_Card > p {

@@ -1,0 +1,26 @@
+.founder_Banner {
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    padding: 2rem;
+    color: #FEFEFE;
+}
+
+.founder_Banner_Content {
+    margin-top: 4rem;
+}
+
+.founder_Banner_Content > h3 {
+    font-family: 'Spring';
+}
+
+.founder_Photo {
+    background-color: #FEFEFE;
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.founder_Banner_Content > p {
+    font-size: 0.8rem;
+}

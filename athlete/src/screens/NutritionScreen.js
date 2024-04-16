@@ -29,19 +29,19 @@ function NutritionScreen() {
   <p>Our nutritional coaching sessions are tailored to enhance your performance through the power that your mind unveils. We equip our athletes with a nutritional toolkit that includes:</p>
   <div className='nutrition_Performance_Cards'>
   <div className='performance_Card'>
-    <img src='/images/nutrition/svgs/icon4.png' alt='first card' />
-    <p>Prior to a game, adjusted according to the anticipated intensity of the upcoming match.</p>
+    <h3>PRIOR</h3>
+    <p>to a game, adjusted according to the anticipated intensity of the upcoming match.</p>
   </div>
   <div className='performance_Card'>
-    <img src='/images/nutrition/svgs/icon3.png' alt='first card' />
-    <p>Throughout a game, tailored to the dynamics of the ongoing match.</p>
+    <h3>Throughout</h3>
+    <p>a game, tailored to the dynamics of the ongoing match.</p>
   </div>
   <div className='performance_Card'>
-    <img src='/images/nutrition/svgs/icon1.png' alt='first card' />
-    <p>Post-game, depending on the intensity of the match played.</p>
+    <h3>POST GAME</h3>
+    <p>depending on the intensity of the match played.</p>
   </div>
   <div className='performance_Card'>
-    <img src='/images/nutrition/svgs/icon6.png' alt='first card' />
+    <h3>Adjusted</h3>
     <p>On a regular day, adjusted based on the individual athlete's goals.</p>
   </div>
 </div>
