@@ -7,6 +7,7 @@ import MentalCoachingScreen from './screens/MentalCoachingScreen';
 import AmbassadorsScreen from './screens/AmbassadorsScreen';
 import NutritionScreen from './screens/NutritionScreen';
 import FounderScreen from './screens/FounderScreen';
+import ContactScreen from './screens/ContactScreen';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/mental" element={<MentalCoachingScreen />} />
           <Route path="/nutrition" element={<NutritionScreen />} />
           <Route path="/founder" element={<FounderScreen/>} />
+          <Route path="/contact" element={<ContactScreen/>} />
           <Route path="/ambassadors" element={<AmbassadorsScreen />} />
         </Routes>
       </div>

@@ -39,7 +39,7 @@ function Nav() {
           <Link to="/mental">MENTAL COACHING</Link>
           <Link to="/nutrition">NUTRITION</Link>
           <Link to="/ambassadors">AMBASSADORS</Link>
-          <Link to="/info">CONTACT US</Link>
+          <Link to="/contact">CONTACT US</Link>
         </div>
         
         {/* Mobile Menu */}
@@ -55,7 +55,7 @@ function Nav() {
             <Link to="/mental">MENTAL COACHING</Link>
             <Link to="/nutrition">NUTRITION</Link>
             <Link to="/ambassadors">AMBASSADORS</Link>
-            <Link to="/info">CONTACT US</Link>
+            <Link to="/contact">CONTACT US</Link>
           </div>
         )}
       </div>
