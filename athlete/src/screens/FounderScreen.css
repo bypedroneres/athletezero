@@ -15,9 +15,13 @@
 }
 
 .founder_Photo {
-    background-color: #FEFEFE;
     width: 100%;
-    height: 300px;
+    background-image: url('/public/images/founder/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 2rem;
     border-radius: 1rem;
 }
 
