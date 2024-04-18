@@ -5,6 +5,7 @@
 
 .contact_Content {
     display: flex;
+    height: 100vh;
     padding: 2rem;
     align-items: center;
     flex-direction: column;
