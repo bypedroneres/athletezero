@@ -7,7 +7,7 @@ function Founder() {
       <div className='founder_Content'>
         <div className='founder_Card'>
           <div className='founder_Text'>
-            <h2>THE FOUNDER'S STORY</h2>
+            <h2>THE FOUNDER’S STORY</h2>
             <p>
               Our founder, Luis, learned firsthand the consequences of
               overlooking non-sport-specific training. Today, he is committed

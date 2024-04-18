@@ -17,7 +17,7 @@ function Testimonials() {
                         </div>
                         <div className='testimonials_Name'>
                         <h3>Cisco Salvat</h3>
-                        <p>FC Barcelona</p>
+                        <p>Barça</p>
                         </div>
                     </div>
                     <div className='testimonials_Text'>
@@ -49,7 +49,7 @@ function Testimonials() {
                         </div>
                     </div>
                     <div className='testimonials_Text'>
-                        <p>”After playing at the highest level in the ATP circuit, I can confidently say that Athlete Zero's program is an essentail component for the development of young athletes.”</p>
+                        <p>”After playing at the highest level in the ATP circuit, I can confidently say that Athlete Zero's program is an essential component for the development of young athletes.”</p>
                     </div>
                 </div>
                 <div className='testimonials_Card'>

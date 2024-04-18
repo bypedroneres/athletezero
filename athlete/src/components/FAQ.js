@@ -78,7 +78,7 @@ function FAQ() {
                     </div>
                     {openQuestion === 5 && (
                         <div className="faq_Answer">
-                            <p>After completing <spam className='underline_Black'>this form</spam>, our team will reach out with our different pricing options and match you with the coach who best suits your needs.</p>
+                            <p>After completing <span className='underline_Black'><a href="https://docs.google.com/forms/d/e/1FAIpQLSchkoH17qTzbaQ-t_rHl6ATJ38C95i9eMBBUNn9pRvGW6FSGw/viewform?usp=sf_link">this form</a></span>, our team will reach out with our different pricing options and match you with the coach who best suits your needs.</p>
                         </div>
                     )}
                 </div>

@@ -8,23 +8,53 @@
 
 .founder_Banner_Content {
     margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
 }
 
-.founder_Banner_Content > h3 {
+.founder_Banner_Text > h3 {
     font-family: 'Spring';
 }
 
+.founder_Banner_Text {
+    width: 50%;
+}
+
 .founder_Photo {
-    width: 100%;
+    width: 50%;
     background-image: url('/public/images/founder/background.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 50vh;
     margin-bottom: 2rem;
     border-radius: 1rem;
 }
 
-.founder_Banner_Content > p {
+.founder_Banner_Text > p {
     font-size: 0.8rem;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .founder_Banner_Content {
+        display: flex;
+        flex-direction: column;
+    }
+    .founder_Photo {
+        width: 100%;
+    }
+
+    .founder_Banner_Text {
+        width: 100%;
+    }
+
+    .founder_Banner_Text > p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .founder_Banner {
+        padding-top: 2rem;
+    }
 }

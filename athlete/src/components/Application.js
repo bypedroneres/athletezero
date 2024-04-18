@@ -7,8 +7,14 @@ function Application() {
       <div className='application_Content'>
         <h1>Become an Ambassador, Apply Today</h1>
         <div className='application_Buttons'>
-          <button className='learn_More_Button'>Learn more</button>
+          <a href='/info'>
+          <button className='learn_More_Button'>
+            Learn more
+            </button>
+            </a>
+            <a href='/info'>
           <button className='apply_Button'>Apply</button>
+          </a>
         </div>
       </div>
     </div>

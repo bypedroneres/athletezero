@@ -9,7 +9,6 @@
     flex-direction: column;
 }
 
-
 .founder_Card {
     background-image: url('/public/images/founder/founder.png');
     background-size: cover;
@@ -31,6 +30,7 @@
 
 .founder_Text > h2{
     margin: 0;
+    font-family: 'Spring';
     font-size: 2rem;
     color: #C4F969;
 }

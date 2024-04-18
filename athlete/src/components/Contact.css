@@ -1,0 +1,45 @@
+.contact {
+    background-color: #121212;
+    color: #FEFEFE;
+}
+
+.contact_Content {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_Content > h1 {
+    font-family: 'Spring';
+}
+
+.contact_Content > form {
+    background-color: #FEFEFE;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.form_Group {
+    margin-bottom: 1rem;
+    
+}
+
+.form_Group > input {
+    background-color: #D9D9D9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.contact_Content > form > button {
+    background-color: #121212;
+    color: #FEFEFE;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}

@@ -18,10 +18,10 @@
     justify-content: center;
 }
 
-.application_Buttons > button {
+.application_Buttons > a > button {
     border: none;
     padding: 0.7rem;
-    width: 200px;
+    width: 150px;
     border-radius: 0.5rem;
     font-size: 1rem;
     margin-top: 1rem;
