@@ -48,7 +48,7 @@ function FAQ() {
                     </div>
                     {openQuestion === 3 && (
                         <div className="faq_Answer">
-                            <p>Our coaching team has a diverse range of experts across nearly every single sport. They have guided athletes at every level, from amateurs to collegiate and professionals. They also hold advanced degrees in their respective fields and stay up-to-date with the latest certifications. Fill out this form to learn more about them!</p>
+                            <p>Our coaching team has a diverse range of experts across nearly every single sport. They have guided athletes at every level, from amateurs to collegiate and professionals. They also hold advanced degrees in their respective fields and stay up-to-date with the latest certifications. Fill out <span className='underline_Black'><a href="https://docs.google.com/forms/d/e/1FAIpQLSchkoH17qTzbaQ-t_rHl6ATJ38C95i9eMBBUNn9pRvGW6FSGw/viewform?usp=sf_link">this form</a></span> to learn more about them!</p>
                         </div>
                     )}
                 </div>

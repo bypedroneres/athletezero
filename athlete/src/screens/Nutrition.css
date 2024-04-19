@@ -108,3 +108,9 @@
         width: 100%;
     }
 }
+
+
+.underline_Black > a{
+    text-decoration: none;
+    color: #121212;
+}
