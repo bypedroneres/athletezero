@@ -6,7 +6,7 @@ function CTA() {
     <div className='cta'>
         <div className='cta_Content'>
             <div className='cta_Image'>
-            <img src='/images/mockup.png' alt='Phone' />
+            <img src='/images/phone-3.png' alt='Phone' />
             </div>
             <div className='cta_Text'>
                 <h1>UNLEASH YOUR POTENTIAL,<br>

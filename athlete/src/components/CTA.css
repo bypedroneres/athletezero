@@ -6,11 +6,11 @@
 }
 
 .cta_Image {
-    width: 45%;
+    width: 55%;
 }
 
 .cta_Image > img {
-    width: 200px;
+    width: 300px;
 }
 
 .cta_Text {
@@ -48,7 +48,7 @@
     }
 
     .cta_Image > img {
-        width: 200px;
+        width: 300px;
     }
 
     .cta_Image {
