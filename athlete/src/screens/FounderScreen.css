@@ -12,8 +12,9 @@
     gap: 2rem;
 }
 
-.founder_Banner_Text > h3 {
+.founder_Banner_Text > h1 {
     font-family: 'Spring';
+    font-size: 1.7rem;
 }
 
 .founder_Banner_Text {
@@ -33,6 +34,7 @@
 
 .founder_Banner_Text > p {
     font-size: 0.8rem;
+    margin-top: 2rem;
     text-align: left;
 }
 
