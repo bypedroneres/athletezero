@@ -35,7 +35,14 @@
 
 @media (max-width: 768px) {
     .hero_Text > h1 {
-        font-size: 2.5rem;
-        margin-bottom: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .hero_Content {
+        height: 55vh;
+    }
+
+    .hero_Text > p {
+        font-size: 0.8rem;
     }
 }
