@@ -5,42 +5,70 @@
 
 .contact_Content {
     display: flex;
-    height: 100vh;
-    padding: 2rem;
+    height: 80vh;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact_Form {
+    padding-top: 4rem;
+}
+
+.contact_Form_Content {
+    display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+}
+
+.contact_Form_Content > h1 {
+    font-family: 'Spring';
+}
+
+.contact_Form_Content > form > button {
+    background-color:#121212;
+    color: #FEFEFE;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.contact_Form_Content > form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #FEFEFE;
+    border-radius: 1rem;
+    width: 70%;
+}
+
+.form_Group {
+    display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 
-.contact_Content > h1 {
-    font-family: 'Spring';
-}
-
-.contact_Content > form {
-    background-color: #FEFEFE;
-    padding: 1rem;
-    border-radius: 1rem;
-}
-
-.form_Group {
-    margin-bottom: 1rem;
-    
-}
-
 .form_Group > input {
-    background-color: #D9D9D9;
     padding: 1rem;
+    width: 100%;
     border-radius: 0.5rem;
     border: none;
+    background-color: #D9D9D9;
 }
 
-.contact_Content > form > button {
-    background-color: #121212;
-    color: #FEFEFE;
+.form_Group > textarea {
+    appearance: none;
     border: none;
-    cursor: pointer;
+    background-color: #D9D9D9;
     width: 100%;
-    padding: 1rem;
+    height: 50px;
     border-radius: 0.5rem;
+    padding: 1rem;
 }
