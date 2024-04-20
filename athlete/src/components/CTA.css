@@ -24,7 +24,7 @@
 .cta_Text > h1 {
     font-family: 'Spring';
 }
-.cta_Text > button {
+.cta_Text > a > button {
     padding: 1rem;
     background-color: #C4F969;
     border: 1px solid #C4F969;
@@ -34,7 +34,7 @@
     font-size: 1rem;
 }
 
-.cta_Text > button:hover {
+.cta_Text > a > button:hover {
     background-color: #121212;
     color: #C4F969;
     border: 1px solid #C4F969;

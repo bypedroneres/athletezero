@@ -7,7 +7,7 @@ function Offer() {
         <div className='offer_Content'>
             <div className='offer_Text'>
                 <h1>Join the BEST community of athletes in America.</h1>
-                <p>Help us in empowering athletes to achieve their dreams! This is your chance to become part of the solution and spread awareness about the often overlooked non-sport-specific training.</p>
+                <p>Help us in empowering athletes to achieve their dreams! This is your chance to become part of the solution and spread awareness about the often-overlooked non-sport-specific training.</p>
                 <div className='offer_Icons'>
                   <div className='offer_Icon'>
                   <img src='/images/ambassadors/image-1.svg' alt='Offer' />
