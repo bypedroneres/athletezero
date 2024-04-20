@@ -55,6 +55,20 @@ function Testimonials() {
                 <div className='testimonials_Card'>
                     <div className='testimonials_Header'>
                         <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial8.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Jacobo Sanfeliu</h3>
+                        <p>SIUE</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>“Before coming to Athlete Zero, I was fully unaware of the impact nutrition could have on preventing injuries. Since I started working with Shayna, I have not experienced any more injuries.”</p>
+                    </div>
+                </div>
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
                         <img src='/images/testimonials/testimonial4.png' alt='Alice Ferlito' />
                         </div>
                         <div className='testimonials_Name'>
@@ -63,7 +77,7 @@ function Testimonials() {
                         </div>
                     </div>
                     <div className='testimonials_Text'>
-                        <p>"If you want to become a top tier athlete, you need to walk the extra mile training wise, Athlete Zero walks with you."</p>
+                        <p>"If you want to become a top-tier athlete, you need to walk the extra mile training-wise, Athlete Zero walks with you."</p>
                     </div>
                 </div>
                 <div className='testimonials_Card'>
@@ -105,7 +119,7 @@ function Testimonials() {
                         </div>
                     </div>
                     <div className='testimonials_Text'>
-                        <p>"Discovering Athlete Zero has been a game-changer for me. I couldn't imagine that nutrition would have such a big impact in how I feel and perform."</p>
+                        <p>"Discovering Athlete Zero has been a game-changer for me. I couldn't imagine that nutrition would have such a big impact on how I feel and perform."</p>
                     </div>
                 </div>
                 

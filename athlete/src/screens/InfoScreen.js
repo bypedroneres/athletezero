@@ -10,12 +10,13 @@ function InfoScreen() {
         <div className='info_Content'>
             <h2>About Our Program:</h2>
             <p>
-              (No need to worry about long-term commitments or purchase requirements!)<br/><br/>
+              <em>(No need to worry about long-term commitments or purchase requirements!)</em><br/><br/>
 
               As an ambassador, we ask that you post twice a month on your feed or stories. It can be as simple as reposting one of our posts. That's it.<br/><br/>
 
               You are allowed to share your code through any of your social media accounts! The more you post and share your code, the more people will be interested in purchasing through your code, which means you will earn more through your $50 + 5% commission!<br/><br/>
-
+              
+              <br/><br/>
               <strong>How Does This Work?</strong><br/><br/>
 
               Let's say Jake wants to become an ambassador. The first step is to apply through the following link: <br/><br/>
@@ -24,7 +25,9 @@ function InfoScreen() {
 
               Jake now earns $50 + 5% PASSIVELY every time one of his friends makes a purchase using his code!<br/><br/>
 
+              <br/><br/>
               <strong>FAQ:</strong><br/><br/>
+              
 
               <em>How will I get my personal code?</em><br/>
               After applying to be an ambassador, you will receive an email confirming your acceptance into the ambassador program. In that email, you will receive your personal discount code, which you can then share with whomever you choose.<br/><br/>

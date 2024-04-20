@@ -20,7 +20,6 @@ function FAQ() {
                             {/* Add onClick event to toggle question */}
                             <div className="faq_QuestionHeader" onClick={() => toggleQuestion(index)}>
                                 <h2>
-                                How do I know if Athlete Zero‘s programs are suitable for my specific needs as an athlete?
                                 What type of athletes can benefit from your services?
                                 </h2>
                                 <svg fill="#FEFEFE" width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

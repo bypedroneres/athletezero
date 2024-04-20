@@ -10,15 +10,20 @@
     margin-top: 4rem;
     display: flex;
     gap: 2rem;
+
+
 }
 
 .founder_Banner_Text > h1 {
     font-family: 'Spring';
     font-size: 1.7rem;
+    margin-bottom: 4rem;
 }
 
 .founder_Banner_Text {
     width: 50%;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .founder_Photo {
@@ -38,9 +43,14 @@
     text-align: left;
 }
 
+.founder_Banner_Text > h5 {
+    font-family: 'Spring';
+}
+
 @media (max-width: 768px) {
     .founder_Banner_Content {
         display: flex;
+        padding-left: 0rem;
         flex-direction: column;
     }
     .founder_Photo {
@@ -49,6 +59,8 @@
 
     .founder_Banner_Text {
         width: 100%;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     .founder_Banner_Text > p {
