@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../components/Application.css";
+import PopUp from '../components/PopUp';
 
 function Application() {
-  // Link to the Google Form
-  const googleFormLink = "https://docs.google.com/forms/d/e/1FAIpQLSchkoH17qTzbaQ-t_rHl6ATJ38C95i9eMBBUNn9pRvGW6FSGw/viewform";
+
+
+  const [showPopup, setShowPopup] = useState(false);
+
+  const openPopup = () => {
+    setShowPopup(true);
+  };
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
 
   return (
     <div className='application'>
@@ -13,12 +23,11 @@ function Application() {
           <a href='/info'>
             <button className='learn_More_Button'>Learn more</button>
           </a>
-          {/* Link added to the button */}
-          <a href={googleFormLink} target="_blank" rel="noopener noreferrer">
-            <button className='apply_Button'>Apply</button>
-          </a>
+          <button className='apply_Button' onClick={openPopup}>Apply</button>
         </div>
       </div>
+      {/* Render popup if showPopup is true */}
+      {showPopup && <PopUp onClose={closePopup} />}
     </div>
   );
 }

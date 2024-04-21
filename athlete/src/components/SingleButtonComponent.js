@@ -12,7 +12,7 @@ function SingleButtonComponent() {
         <div className='application_Buttons'>
           {/* Link added to the button */}
           <a href={googleFormLink} target="_blank" rel="noopener noreferrer">
-            <button className='apply_Button'>Apply</button>
+            <button className='apply_Button'>Get Started</button>
           </a>
         </div>
       </div>
