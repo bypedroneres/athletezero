@@ -67,11 +67,13 @@
     font-family: 'Spring';
 }
 
-.footer_Legal > p {
+.footer_Legal > p > a {
     font-size: 0.8rem;
+    text-decoration: none;
+    color: #FEFEFE;
 }
 
-.footer_Legal > p:hover {
+.footer_Legal > p > a:hover {
     text-decoration: underline;
     cursor: pointer;
 }

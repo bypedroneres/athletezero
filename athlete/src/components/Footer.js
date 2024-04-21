@@ -15,9 +15,9 @@ function Footer() {
                   <p><a href="mailto:contact@athletezero.us">contact@athletezero.us</a></p>
                 </div>
                 <div className='footer_Legal'>
-                  <h4>LEGAL</h4>
-                  <p>Privacy Policy</p>
-                  <p>Terms & conditions</p>
+                <h4>LEGAL</h4>
+                <p><a href="/privacy-policy">Privacy Policy</a></p>
+                <p><a href="/terms-and-conditions">Terms &amp; Conditions</a></p>
                 </div>
             </div>
             <div className='footer_Social'>

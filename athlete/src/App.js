@@ -9,6 +9,8 @@ import NutritionScreen from './screens/NutritionScreen';
 import FounderScreen from './screens/FounderScreen';
 import ContactScreen from './screens/ContactScreen';
 import InfoScreen from './screens/InfoScreen';
+import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen';
+import TermsAndConditionsScreen from './screens/TermsAndConditions';
 // import LoadingScreen from './components/LoadingScreen'; 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Route path="/info" element={<InfoScreen/>} />
           <Route path="/contact" element={<ContactScreen/>} />
           <Route path="/ambassadors" element={<AmbassadorsScreen />} />
+          <Route path='/privacy-policy' element={<PrivacyPolicyScreen/>} />
+          <Route path='/terms-and-conditions' element={<TermsAndConditionsScreen/>} />
         </Routes>
       </div>
     </Router>

@@ -13,3 +13,12 @@
 .info_Content > p {
     text-align: left;
 }
+
+.info_Content {
+    text-align: left;
+}
+
+.info_Content > p > a {
+    text-decoration: none;
+    color: #FEFEFE;
+}
