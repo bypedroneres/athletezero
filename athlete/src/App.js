@@ -9,11 +9,13 @@ import NutritionScreen from './screens/NutritionScreen';
 import FounderScreen from './screens/FounderScreen';
 import ContactScreen from './screens/ContactScreen';
 import InfoScreen from './screens/InfoScreen';
+// import LoadingScreen from './components/LoadingScreen'; 
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      {/* <LoadingScreen />  */}
       <div className="App">
         <Routes> 
           <Route path="/" element={<HomeScreen />} />
