@@ -30,6 +30,12 @@
     padding: 2rem;
     flex-direction: column;
     text-align: left;
+    border: 1px solid #121212;
+}
+
+.services_Card-1:hover {
+    border: 1px solid #C4F969;
+    cursor: pointer;
 }
 
 .services_Card-2 {
@@ -44,6 +50,12 @@
     padding: 2rem;
     flex-direction: column;
     text-align: left;
+    border: 1px solid #121212;
+}
+
+.services_Card-2:hover {
+    border: 1px solid #C4F969;
+    cursor: pointer;
 }
 
 .services_Text {

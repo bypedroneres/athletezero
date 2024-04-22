@@ -35,6 +35,13 @@
     padding: 1rem;
     cursor: pointer;
     border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.contact_Form_Content > form > button:hover {
+    background-color: #C4F969;
+    color: #121212;
+
 }
 
 .contact_Form_Content > form {

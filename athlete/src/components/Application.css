@@ -36,18 +36,21 @@
     font-size: 1rem;
     margin-top: 1rem;
     border: 1px solid #C4F969;
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .learn_More_Button {
     background-color: #121212;
     color: #C4F969;
     border: 1px solid #C4F969;
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .apply_Button {
     background-color: #C4F969;
     color: #121212;
     border: 1px solid #C4F969;
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .learn_More_Button:hover {
@@ -62,4 +65,5 @@
     color: #C4F969;
     cursor: pointer;
     border: 1px solid #C4F969;
+    
 }
