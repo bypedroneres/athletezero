@@ -38,6 +38,11 @@
     cursor: pointer;
 }
 
+.services_Cards > a {
+    text-decoration: none;
+    color: #FEFEFE;
+}
+
 .services_Card-2 {
     background-image: url('/public/images/nutrition.png');
     background-size: cover;
