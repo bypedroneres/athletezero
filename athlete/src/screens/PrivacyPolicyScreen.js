@@ -46,18 +46,14 @@ function PrivacyPolicyScreen() {
 
         <p>All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.</p>
 
-
-        
         <h3>2. HOW DO WE PROCESS YOUR INFORMATION?</h3>
 
         <p><em>In Short:</em> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.</p>
-
 
         <h3>3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h3>
 
         <p><em>In Short:</em> We may share information in specific situations described in this section and/or with the following third parties.</p>
 
-        
         <h3>4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h3>
 
         <p><em>In Short:</em> We may use cookies and other tracking technologies to collect and store your information.</p>
@@ -82,13 +78,9 @@ function PrivacyPolicyScreen() {
 
         <p><em>In Short:</em> If you are a resident of California, Colorado, Connecticut, Utah, or Virginia, you are granted specific rights regarding access to your personal information.</p>
 
-        {/* Other sections omitted for brevity */}
-
         <h3>10. DO WE MAKE UPDATES TO THIS NOTICE?</h3>
 
         <p><em>In Short:</em> Yes, we will update this notice as necessary to stay compliant with relevant laws.</p>
-
-        {/* Other sections omitted for brevity */}
 
         <h3>11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h3>
 
