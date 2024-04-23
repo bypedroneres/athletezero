@@ -12,6 +12,17 @@
 
 .info_Content > p {
     text-align: left;
+
+}
+
+.info_Content > ol > li > a {
+    color: #FEFEFE;
+    text-decoration: underline;
+}
+
+.info_Content > ul > li > a{
+    text-decoration: underline;
+    color: #FEFEFE;
 }
 
 .info_Content {
@@ -21,4 +32,16 @@
 .info_Content > p > a {
     text-decoration: none;
     color: #FEFEFE;
+    
 }
+
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
