@@ -1,45 +1,24 @@
-// LoadingScreen.js
 import React, { useState, useEffect } from 'react';
-import './LoadingScreen.css'; // Import the CSS file
+import './LoadingScreen.css'; // Import CSS for loading spinner
 
-function LoadingScreen() {
-  const [loading, setLoading] = useState(true);
-  const [progress, setProgress] = useState(0);
+const LoadingScreen = () => {
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const startTime = Date.now();
-    const endTime = startTime + 3000; // 3 seconds duration
+    // Simulate loading delay
+    const loadingTimeout = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000); // Adjust the time as needed
 
-    const updateProgress = () => {
-      const now = Date.now();
-      const elapsedTime = now - startTime;
-      const timeRemaining = Math.max(0, endTime - now);
-      const progressValue = 100 - (timeRemaining / 3000) * 100; // Calculate progress
+    // Cleanup function
+    return () => clearTimeout(loadingTimeout);
+  }, []); // Empty dependency array ensures useEffect runs only once
 
-      setProgress(progressValue);
-
-      if (elapsedTime < 3000) {
-        requestAnimationFrame(updateProgress); // Update progress using requestAnimationFrame
-      } else {
-        setLoading(false);
-      }
-    };
-
-    requestAnimationFrame(updateProgress); // Initial call to update progress
-
-    return () => {
-      setProgress(0); // Reset progress when component unmounts
-    };
-  }, []);
-
-  return loading ? (
-    <div className="loading-screen">
-      <div className="loading-text">{`${Math.min(100, Math.round(progress))}%`}</div>
-      <div className="loading-bar">
-        <div className="loading-progress" style={{ width: `${Math.min(100, Math.round(progress))}%` }} />
-      </div>
+  return (
+    <div className="loading-screen" style={{ opacity: isLoading ? 1 : 0, transition: 'opacity 0.5s ease' }}>
+      <img src='/images/loading/logo.svg' alt='Phone' />
     </div>
-  ) : null;
-}
+  );
+};
 
 export default LoadingScreen;

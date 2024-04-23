@@ -11,13 +11,13 @@ import ContactScreen from './screens/ContactScreen';
 import InfoScreen from './screens/InfoScreen';
 import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen';
 import TermsAndConditionsScreen from './screens/TermsAndConditions';
-// import LoadingScreen from './components/LoadingScreen'; 
+import LoadingScreen from './components/LoadingScreen'; 
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
-      {/* <LoadingScreen />  */}
+      <LoadingScreen /> 
       <div className="App">
         <Routes> 
           <Route path="/" element={<HomeScreen />} />
