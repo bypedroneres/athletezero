@@ -89,4 +89,20 @@
     padding: 1rem;
 }
 
-
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .testimonials_Cards:hover .testimonials_Card {
+    animation-play-state: paused;
+  }
+  
+  .testimonials_Card {
+    animation: 5s slide infinite linear;
+  }
+  
