@@ -1,4 +1,3 @@
-// Partners.js
 import React from 'react';
 import '../components/Partners.css';
 
