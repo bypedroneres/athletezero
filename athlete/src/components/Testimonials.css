@@ -98,11 +98,7 @@
     }
   }
   
-  .testimonials_Cards:hover .testimonials_Card {
-    animation-play-state: paused;
-  }
-  
   .testimonials_Card {
-    animation: 5s slide infinite linear;
+    animation: 10s slide infinite linear;
   }
   
