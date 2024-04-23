@@ -398,7 +398,7 @@ function PrivacyPolicyScreen() {
 
 <p>If we decline to take action regarding your request, we will inform you of our decision and reasoning behind it. If you wish to appeal our decision, please email us at <a href="mailto:contact@athletezero.us">contact@athletezero.us</a>. Within sixty (60) days of receipt of an appeal, we will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may contact the Attorney General to submit a complaint.</p>
 
-<h3 id="section10">10.DO WE MAKE UPDATES TO THIS NOTICE?</h3>
+<h3 id="section10">10. DO WE MAKE UPDATES TO THIS NOTICE?</h3>
 
 <p><strong>In Short:</strong> Yes, we will update this notice as necessary to stay compliant with relevant laws.</p>
 

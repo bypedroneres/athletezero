@@ -6,7 +6,7 @@ function PopUp({ onClose }) {
     name: '',
     email: '',
     age: '',
-    highschool: '',
+    instagram: '',
     message: ''
   });
 
@@ -20,9 +20,8 @@ function PopUp({ onClose }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can perform form submission logic here
     console.log('Form submitted:', formData);
-    onClose(); // Close the popup after form submission
+    onClose(); 
   };
 
   return (
@@ -60,9 +59,9 @@ function PopUp({ onClose }) {
           <label>
             <input
               type='text'
-              placeholder='High School:'
+              placeholder='Instagram Account:'
               name='highschool'
-              value={formData.highschool}
+              value={formData.instagram}
               onChange={handleChange}
             />
           </label>

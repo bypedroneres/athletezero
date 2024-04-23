@@ -49,62 +49,22 @@ function Testimonials() {
                         <p>”After playing at the highest level in the ATP circuit, I can confidently say that Athlete Zero's program is an essential component for the development of young athletes.”</p>
                     </div>
                 </div>
+
                 <div className='testimonials_Card'>
                     <div className='testimonials_Header'>
                         <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial8.png' alt='Alice Ferlito' />
+                        <img src='/images/testimonials/testimonial10.png' alt='Alice Ferlito' />
                         </div>
                         <div className='testimonials_Name'>
-                        <h3>Jacobo Sanfeliu</h3>
-                        <p>SIUE</p>
+                        <h3>Owen Guglielmino</h3>
+                        <p>University of Connecticut</p>
                         </div>
                     </div>
                     <div className='testimonials_Text'>
-                        <p>“Before coming to Athlete Zero, I was fully unaware of the impact nutrition could have on preventing injuries. Since I started working with Shayna, I have not experienced any more injuries.”</p>
+                        <p>“I cannot think of a better place than athlete zero to work on my mental game and nutrition.”</p>
                     </div>
                 </div>
-                <div className='testimonials_Card'>
-                    <div className='testimonials_Header'>
-                        <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial4.png' alt='Alice Ferlito' />
-                        </div>
-                        <div className='testimonials_Name'>
-                        <h3>Inaki Cabrera</h3>
-                        <p>University of Arizona</p>
-                        </div>
-                    </div>
-                    <div className='testimonials_Text'>
-                        <p>"If you want to become a top-tier athlete, you need to walk the extra mile training-wise, Athlete Zero walks with you."</p>
-                    </div>
-                </div>
-                <div className='testimonials_Card'>
-                    <div className='testimonials_Header'>
-                        <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial6.png' alt='Alice Ferlito' />
-                        </div>
-                        <div className='testimonials_Name'>
-                        <h3>Emilio sanchez</h3>
-                        <p>University of Central Florida</p>
-                        </div>
-                    </div>
-                    <div className='testimonials_Text'>
-                        <p>"The professionals at Athlete Zero not only help you in solving the different problems you have, but they also give you the tools you need to be able to solve them by yourself in the future."</p>
-                    </div>
-                </div>
-                <div className='testimonials_Card'>
-                    <div className='testimonials_Header'>
-                        <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial5.png' alt='Alice Ferlito' />
-                        </div>
-                        <div className='testimonials_Name'>
-                        <h3>Julian Alonso</h3>
-                        <p>Texas Christian University</p>
-                        </div>
-                    </div>
-                    <div className='testimonials_Text'>
-                        <p>"I have trained at many places throughout my career, and Athlete Zero is absolutely the best. They understand exactly what you need and empower you to reach the next level."</p>
-                    </div>
-                </div>
+
                 <div className='testimonials_Card'>
                     <div className='testimonials_Header'>
                         <div className='testimonials_Pic'>
@@ -119,6 +79,83 @@ function Testimonials() {
                         <p>"Discovering Athlete Zero has been a game-changer for me. I couldn't imagine that nutrition would have such a big impact on how I feel and perform."</p>
                     </div>
                 </div>
+
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial9.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Sam Morgan</h3>
+                        <p>West Virginia University</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>“Landon did an awesome job boosting my confidence. thank you!!”</p>
+                    </div>
+                </div>
+
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial4.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Inaki Cabrera</h3>
+                        <p>University of Arizona</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>"If you want to become a top-tier athlete, you need to walk the extra mile training-wise, Athlete Zero walks with you."</p>
+                    </div>
+                </div>
+
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial5.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Julian Alonso</h3>
+                        <p>Texas Christian University</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>"I have trained at many places throughout my career, and Athlete Zero is absolutely the best. They understand exactly what you need and empower you to reach the next level."</p>
+                    </div>
+                </div>
+
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial8.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Jacobo Sanfeliu</h3>
+                        <p>SIUE</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>“Before coming to Athlete Zero, I was fully unaware of the impact nutrition could have on preventing injuries. Since I started working with Shayna, I have not experienced any more injuries.”</p>
+                    </div>
+                </div>
+
+                <div className='testimonials_Card'>
+                    <div className='testimonials_Header'>
+                        <div className='testimonials_Pic'>
+                        <img src='/images/testimonials/testimonial6.png' alt='Alice Ferlito' />
+                        </div>
+                        <div className='testimonials_Name'>
+                        <h3>Emilio sanchez</h3>
+                        <p>University of Central Florida</p>
+                        </div>
+                    </div>
+                    <div className='testimonials_Text'>
+                        <p>"The professionals at Athlete Zero not only help you in solving the different problems you have, but they also give you the tools you need to be able to solve them by yourself in the future."</p>
+                    </div>
+                </div>
+
+
                 
             </div>
         </div>
