@@ -45,7 +45,7 @@
 }
 
 
-.about_Text > a > button {
+.about_Text > button {
     padding: 1rem;
     width: 200px;
     font-size: 1rem;
@@ -58,7 +58,7 @@
     transition: background-color 0.3s, color 0.3s; 
 }
 
-.about_Text > a > button:hover {
+.about_Text > button:hover {
     background-color: #121212;
     color: #C4F969;
     cursor: pointer;
