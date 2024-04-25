@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../components/PopUp.css';
+import firestore from '../firebase'; // Import the Firestore instance
 
 function PopUp({ onClose }) {
   const [formData, setFormData] = useState({
@@ -18,10 +19,17 @@ function PopUp({ onClose }) {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    onClose(); 
+    try {
+      await firestore.collection('applications').add(formData); // Send form data to Firestore
+      console.log('Form submitted:', formData);
+      onClose(); // Close the popup
+      alert('Application submitted successfully!');
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Error submitting application. Please try again later.');
+    }
   };
 
   return (
@@ -60,7 +68,7 @@ function PopUp({ onClose }) {
             <input
               type='text'
               placeholder='Instagram Account:'
-              name='highschool'
+              name='instagram'
               value={formData.instagram}
               onChange={handleChange}
             />
