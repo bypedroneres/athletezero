@@ -52,7 +52,7 @@ function GetStartedPopUp({ onClose }) {
           <label>
             <input
               type='text'
-              placeholder='Athletes FullName:'
+              placeholder='Athletes Full Name:'
               name='fullName'
               value={formData.fullName}
               onChange={handleChange}
@@ -61,7 +61,7 @@ function GetStartedPopUp({ onClose }) {
           </label>
           <label>
             <input
-              type='text'
+              type='number'
               placeholder='Athletes Age:'
               name='age'
               value={formData.age}
@@ -105,7 +105,7 @@ function GetStartedPopUp({ onClose }) {
           <label>
             <input
               type='text'
-              placeholder='Discount Code:'
+              placeholder='Discount Code ( optional):'
               name='discountCode'
               value={formData.discountCode}
               onChange={handleChange}

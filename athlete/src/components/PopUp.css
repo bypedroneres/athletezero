@@ -53,9 +53,15 @@
     border-radius: 0.5rem;
 }
 
+.popup_Content > form > label > select > option {
+    text-decoration: none;
+    color: #121212;
+}
+
 .popup_Content > form > label > select {
-    background-color: red;
     appearance: none;
+    text-decoration: none;
+    color: #121212;
     background-color: #D9D9D9;
     border: none;
     padding: 1rem;
@@ -63,8 +69,6 @@
     margin-bottom: 1rem;
     border-radius: 0.5rem;
 }
-
-
 
 .popup_Content > form > button {
     background-color: #121212;
