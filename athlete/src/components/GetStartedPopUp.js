@@ -105,7 +105,7 @@ function GetStartedPopUp({ onClose }) {
           <label>
             <input
               type='text'
-              placeholder='Discount Code ( optional):'
+              placeholder='Discount Code (optional):'
               name='discountCode'
               value={formData.discountCode}
               onChange={handleChange}
