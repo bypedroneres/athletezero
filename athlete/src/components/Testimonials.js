@@ -1,26 +1,26 @@
-import React from 'react'
-import "../components/Testimonials.css"
+import React from 'react';
+import '../components/Testimonials.css';
 
 function Testimonials() {
   return (
     <div className='testimonials'>
-        <div className='testimonials_Content'>
-            <h2>TESTIMONIALS</h2>
-            <div className='testimonials_Cards'>
-                <div className='testimonials_Card'>
-                    <div className='testimonials_Header'>
-                        <div className='testimonials_Pic'>
-                        <img src='/images/testimonials/testimonial7.png' alt='Alice Ferlito' />
-                        </div>
-                        <div className='testimonials_Name'>
-                        <h3>Cisco Salvat</h3>
-                        <p>Barça</p>
-                        </div>
-                    </div>
-                    <div className='testimonials_Text'>
-                        <p>"Extremely grateful to work with Athlete Zero! Rachael is a great professional who has always been able to identify what I need. I am certain that it will be the same with you."</p>
-                    </div>
+      <div className='testimonials_Content'>
+        <h2>TESTIMONIALS</h2>
+          <div className='testimonials_Cards'>
+            <div className='testimonials_Card'>
+              <div className='testimonials_Header'>
+                <div className='testimonials_Pic'>
+                  <img src='/images/testimonials/testimonial7.png' alt='Alice Ferlito' />
                 </div>
+                <div className='testimonials_Name'>
+                  <h3>Cisco Salvat</h3>
+                  <p>Barça</p>
+                </div>
+              </div>
+              <div className='testimonials_Text'>
+                <p>"Extremely grateful to work with Athlete Zero! Rachael is a great professional who has always been able to identify what I need. I am certain that it will be the same with you."</p>
+              </div>
+            </div>
                 <div className='testimonials_Card'>
                     <div className='testimonials_Header'>
                         <div className='testimonials_Pic'>
@@ -154,13 +154,15 @@ function Testimonials() {
                         <p>"The professionals at Athlete Zero not only help you in solving the different problems you have, but they also give you the tools you need to be able to solve them by yourself in the future."</p>
                     </div>
                 </div>
+                
 
 
                 
             </div>
         </div>
+        </div>
       
-    </div>
+
   )
 }
 

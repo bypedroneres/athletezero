@@ -1,0 +1,12 @@
+.animated-section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .home {
+    background-color: #121212;
+  }
