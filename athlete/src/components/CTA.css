@@ -24,7 +24,7 @@
 .cta_Text > h1 {
     font-family: 'Spring';
 }
-.cta_Text > a > button {
+.cta_Text  > button {
     padding: 1rem;
     background-color: #C4F969;
     border: 1px solid #C4F969;
@@ -35,7 +35,7 @@
     transition: background-color 0.3s, color 0.3s; 
 }
 
-.cta_Text > a > button:hover {
+.cta_Text  > button:hover {
     background-color: #121212;
     color: #C4F969;
     border: 1px solid #C4F969;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Nav from '../components/Nav';
 import Hero from '../components/Hero';
 import Partners from '../components/Partners';
@@ -10,21 +10,9 @@ import FAQ from '../components/FAQ.js';
 import Footer from '../components/Footer.js';
 import Story from '../components/Story.js';
 import About from '../components/About.js';
-import './HomeScreen.css'; // Import your CSS file for animations
+import './HomeScreen.css'; 
 
 function HomeScreen() {
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollPosition(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
     <div className='home'>
